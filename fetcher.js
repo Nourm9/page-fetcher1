@@ -12,7 +12,7 @@ request(url, (error, response, body) => {
     if (error) {
       console.log("error:", error);
     } else {
-      console.log(
+      console.log(ß
         `Downloaded and saved ${response.headers["content-length"]} bytes to ${path}`
       );
     }
